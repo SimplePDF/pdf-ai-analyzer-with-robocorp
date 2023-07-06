@@ -33,7 +33,6 @@ def analyze_feedback():
             payload={"feedback": feedback, "result": result})
 
 
-@task
 def analyze_feedback_with_open_ai(feedback):
     secrets_container = vault.get_secret('open_ai_api')
     prompt = storage.get_asset("feedback_prompt")
