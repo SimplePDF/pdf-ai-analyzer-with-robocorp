@@ -5,6 +5,7 @@ from pypdf import PdfReader
 from robocorp import vault
 from robocorp import storage
 import requests
+import json
 
 
 @task
@@ -53,4 +54,4 @@ def analyze_feedback_with_open_ai(feedback):
 
     json_response = response.json()
 
-    return json_response['choices'][0]['message']['content']
+    return json.loads(json_response['choices'][0]['message']['content'])
