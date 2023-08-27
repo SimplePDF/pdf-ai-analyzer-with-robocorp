@@ -12,7 +12,7 @@ import json
 def extract_feedback_from_pdf():
     for item in workitems.inputs:
         http.download(
-            item.payload.get("submissionURL"), "temp_document.pdf")
+            item.payload.get("data").get("submission").get("url"), "temp_document.pdf")
         reader = PdfReader("temp_document.pdf")
 
         page = reader.pages[0]
