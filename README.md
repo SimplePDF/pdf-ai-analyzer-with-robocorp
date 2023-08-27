@@ -25,4 +25,4 @@ https://github.com/SimplePDF/pdf-ai-analyzer-with-robocorp/assets/10613140/9798f
 
 ## Caveats
 
-This automation works with [this document](https://cdn.simplepdf.eu/simple-pdf/assets/restaurant_feedback.pdf) only. Feel free to adapt the logic for your document
+This automation works with [this document](https://cdn.simplepdf.eu/simple-pdf/assets/restaurant_feedback.pdf) only. Feel free to [adapt the logic](https://github.com/SimplePDF/pdf-ai-analyzer-with-robocorp/blob/main/tasks.py#L21) for your document
