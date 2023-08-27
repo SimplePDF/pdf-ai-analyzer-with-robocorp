@@ -11,6 +11,11 @@ _Interested in the step-by-step explanation? [Read the blog post](https://simple
 
 ![Diagram](https://cdn.simplepdf.eu/simple-pdf/assets/help/robocorp-simplepdf-integration-openai-automation-diagram.png)
 
+
+https://github.com/SimplePDF/pdf-ai-analyzer-with-robocorp/assets/10613140/9798f856-d840-4887-b1bd-bd73f2efcfc9
+
+
+
 ## How to use it?
 
 1. [Get the robot on Robocorp Portal](https://robocorp.com/portal/robot/simplepdf/pdf-ai-analyzer-with-robocorp)
